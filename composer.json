@@ -1,0 +1,19 @@
+{
+  "name": "cartrabbit/cartrabbit-plugin",
+  "description": "Cartrabbit plugin",
+  "license": "MIT",
+  "require": {
+    "cartrabbit/framework": "dev-master",
+    "cartrabbit/hook": "dev-master",
+    "cartrabbit/validator": "dev-master"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "MyPlugin\\": "app/"
+    }
+  }
+}
